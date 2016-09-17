@@ -20,7 +20,7 @@ defmodule Words.Router do
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", Words do
+  # scope "/api", Words.Api do
   #   pipe_through :api
   # end
 end
